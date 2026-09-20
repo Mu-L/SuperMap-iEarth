@@ -169,7 +169,7 @@ const checkLicenseInfo = () => {
       let orTitle = document.title;
       let is_comName = comName && comName !== '';
       if(is_comName){
-        document.title = orTitle + ` ${comName}`;
+        // document.title = orTitle + ` ${comName}`;
       }
 
       if (designerInfo) {
